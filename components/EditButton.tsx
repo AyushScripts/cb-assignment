@@ -73,7 +73,7 @@ const EditButton = () => {
   return (
     <Dialog open={isOpen} onOpenChange={setIsOpen}>
       <DialogTrigger asChild>
-        <Button onClick={() => setIsOpen(true)}>Edit Profile</Button>
+        <Button className="bg-[#dadadb] text-[#1e1e1e] hover:bg-opacity-80" onClick={() => setIsOpen(true)}>Edit Profile</Button>
       </DialogTrigger>
 
       <DialogContent className="bg-[#dadadb]">
